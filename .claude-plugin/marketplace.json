@@ -1,0 +1,69 @@
+{
+  "name": "firetower",
+  "owner": {
+    "name": "Firetower",
+    "url": "https://github.com/firetower-cloud/firetower-plugins"
+  },
+  "plugins": [
+    {
+      "name": "linear",
+      "description": "Linear issues, projects and cycles — read a ticket, move it, and write back what the agent actually did.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "project-management",
+      "source": "./linear",
+      "homepage": "https://linear.app"
+    },
+    {
+      "name": "github",
+      "description": "GitHub issues, pull requests, Actions and code search, as tools the agent can call.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "version-control",
+      "source": "./github",
+      "homepage": "https://github.com"
+    },
+    {
+      "name": "notion",
+      "description": "Search Notion, read pages and databases, and write back to them.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "knowledge",
+      "source": "./notion",
+      "homepage": "https://notion.com"
+    },
+    {
+      "name": "figma",
+      "description": "Read a Figma file as the agent builds the UI — frames, components, variables and styles.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "design",
+      "source": "./figma",
+      "homepage": "https://figma.com"
+    },
+    {
+      "name": "higgsfield",
+      "description": "Generate and edit images, video and voice with Higgsfield's creative suite.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "media",
+      "source": "./higgsfield",
+      "homepage": "https://higgsfield.ai"
+    },
+    {
+      "name": "zernio",
+      "description": "Marketing for agents — social, ads, inbox, WhatsApp, SMS and calls behind one connection.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "marketing",
+      "source": "./zernio",
+      "homepage": "https://zernio.com"
+    }
+  ]
+}

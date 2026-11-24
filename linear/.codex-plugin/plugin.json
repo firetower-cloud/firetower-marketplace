@@ -1,0 +1,10 @@
+{
+  "name": "linear",
+  "description": "Linear issues, projects and cycles — read a ticket, move it, and write back what the agent actually did.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Firetower",
+    "url": "https://firetower.cloud"
+  },
+  "homepage": "https://linear.app"
+}

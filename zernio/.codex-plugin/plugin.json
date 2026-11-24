@@ -1,0 +1,10 @@
+{
+  "name": "zernio",
+  "description": "Marketing for agents — social, ads, inbox, WhatsApp, SMS and calls behind one connection.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Firetower",
+    "url": "https://firetower.cloud"
+  },
+  "homepage": "https://zernio.com"
+}
