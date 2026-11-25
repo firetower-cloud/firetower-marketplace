@@ -1,21 +1,24 @@
 # Skills
 
-Entries that are instructions rather than a connection.
+Entries that are instructions rather than a connection. **There are none, and
+that is the honest state of this marketplace.**
+
+Two lived here briefly — a diff reviewer and a conventional-commits helper —
+and both were deleted rather than kept to make the directory look occupied.
+They said what a capable model already does unprompted, which is the one
+thing a skill must not be: it costs context at rest and pays nothing back.
+
+## What belongs here
 
 A server's tool names say *what* it can do. They do not say *how* — which
-project board the team actually uses, what a good triage note looks like, how
-to map a Figma frame onto a design system that already exists. That is what
-belongs here, and it is the only thing a curated list adds that pasting an
-address does not.
+board this team actually uses, what a good triage note looks like, how to map
+a Figma frame onto a design system that already exists, which of forty Linear
+tools to reach for and in what order. That is knowledge about a company or a
+product, it cannot come from a vendor, and it is the only thing a curated
+list adds that pasting an address does not.
 
-| | |
-| --- | --- |
-| `security-review` | read a pending change for bugs and holes, then prove a fix stops the one you found |
-| `release-notes` | write the commit a changelog is cut from, and the note that goes out |
-
-Both of these used to ship inside the Firetower binary. They came out for the
-same reason `github` did: what Firetower compiles in is what Firetower itself
-knows how to do, and everything else is chosen rather than arriving.
+If what you are about to write would be just as true of any team using that
+tool, it belongs in the model, not here.
 
 ## Which directory
 
