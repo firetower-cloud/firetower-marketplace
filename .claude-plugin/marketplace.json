@@ -6,34 +6,44 @@
   },
   "plugins": [
     {
-      "name": "linear",
-      "description": "Linear issues, projects and cycles — read a ticket, move it, and write back what the agent actually did.",
+      "name": "asana",
+      "description": "Tasks, projects and portfolios — read the work and write back what was done.",
       "author": {
         "name": "Firetower"
       },
       "category": "project-management",
-      "source": "./mcp/linear",
-      "homepage": "https://linear.app"
+      "source": "./mcp/asana",
+      "homepage": "https://asana.com"
     },
     {
-      "name": "github",
-      "description": "GitHub issues, pull requests, Actions and code search, as tools the agent can call.",
+      "name": "canva",
+      "description": "Designs, folders and brand assets, read and created from a conversation.",
       "author": {
         "name": "Firetower"
       },
-      "category": "version-control",
-      "source": "./mcp/github",
-      "homepage": "https://github.com"
+      "category": "design",
+      "source": "./mcp/canva",
+      "homepage": "https://www.canva.com"
     },
     {
-      "name": "notion",
-      "description": "Search Notion, read pages and databases, and write back to them.",
+      "name": "cloudflare",
+      "description": "Workers, KV, R2, D1 and the bindings between them.",
       "author": {
         "name": "Firetower"
       },
-      "category": "knowledge",
-      "source": "./mcp/notion",
-      "homepage": "https://notion.com"
+      "category": "deployment",
+      "source": "./mcp/cloudflare",
+      "homepage": "https://www.cloudflare.com"
+    },
+    {
+      "name": "datadog",
+      "description": "Metrics, monitors, logs and traces, as an agent can query them.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "observability",
+      "source": "./mcp/datadog",
+      "homepage": "https://www.datadoghq.com"
     },
     {
       "name": "figma",
@@ -46,6 +56,26 @@
       "homepage": "https://figma.com"
     },
     {
+      "name": "firecrawl",
+      "description": "Scrape a page, crawl a site, and get markdown an agent can actually read.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "web",
+      "source": "./mcp/firecrawl",
+      "homepage": "https://www.firecrawl.dev"
+    },
+    {
+      "name": "github",
+      "description": "GitHub issues, pull requests, Actions and code search, as tools the agent can call.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "version-control",
+      "source": "./mcp/github",
+      "homepage": "https://github.com"
+    },
+    {
       "name": "higgsfield",
       "description": "Generate and edit images, video and voice with Higgsfield's creative suite.",
       "author": {
@@ -54,6 +84,96 @@
       "category": "media",
       "source": "./mcp/higgsfield",
       "homepage": "https://higgsfield.ai"
+    },
+    {
+      "name": "hubspot",
+      "description": "Contacts, companies and deals, as context for every answer.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "crm",
+      "source": "./mcp/hubspot",
+      "homepage": "https://www.hubspot.com"
+    },
+    {
+      "name": "linear",
+      "description": "Linear issues, projects and cycles — read a ticket, move it, and write back what the agent actually did.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "project-management",
+      "source": "./mcp/linear",
+      "homepage": "https://linear.app"
+    },
+    {
+      "name": "neon",
+      "description": "Postgres with branches: open one for a change, query it, throw it away.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "database",
+      "source": "./mcp/neon",
+      "homepage": "https://neon.com"
+    },
+    {
+      "name": "netlify",
+      "description": "Sites, deploys and environment variables, as tools the agent can call.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "deployment",
+      "source": "./mcp/netlify",
+      "homepage": "https://www.netlify.com"
+    },
+    {
+      "name": "notion",
+      "description": "Search Notion, read pages and databases, and write back to them.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "knowledge",
+      "source": "./mcp/notion",
+      "homepage": "https://notion.com"
+    },
+    {
+      "name": "sentry",
+      "description": "Find the issue, read the stacktrace, and the release that introduced it.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "observability",
+      "source": "./mcp/sentry",
+      "homepage": "https://sentry.io"
+    },
+    {
+      "name": "slack",
+      "description": "Read a channel, post, and search your workspace history.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "communication",
+      "source": "./mcp/slack",
+      "homepage": "https://slack.com"
+    },
+    {
+      "name": "supabase",
+      "description": "Postgres, auth and storage — query a branch, read a schema, check a policy.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "database",
+      "source": "./mcp/supabase",
+      "homepage": "https://supabase.com"
+    },
+    {
+      "name": "vercel",
+      "description": "Projects, deployments and logs — read what shipped and why a build failed.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "deployment",
+      "source": "./mcp/vercel",
+      "homepage": "https://vercel.com"
     },
     {
       "name": "zernio",

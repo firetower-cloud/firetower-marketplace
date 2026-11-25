@@ -1,0 +1,10 @@
+{
+  "name": "netlify",
+  "description": "Sites, deploys and environment variables, as tools the agent can call.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Firetower",
+    "url": "https://firetower.cloud"
+  },
+  "homepage": "https://www.netlify.com"
+}

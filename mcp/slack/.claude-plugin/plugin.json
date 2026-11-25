@@ -1,0 +1,10 @@
+{
+  "name": "slack",
+  "description": "Read a channel, post, and search your workspace history.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Firetower",
+    "url": "https://firetower.cloud"
+  },
+  "homepage": "https://slack.com"
+}

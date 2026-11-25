@@ -38,14 +38,26 @@ skills and MCP servers from their own places.
 
 | Entry | Connects to | Authorizing |
 | --- | --- | --- |
-| `mcp/figma` | Figma files, components and variables | one click |
-| `mcp/github` | issues, pull requests, Actions, code search | a client id, created once |
+| `mcp/asana` | tasks, projects, portfolios | a client id, created once |
+| `mcp/canva` | designs, folders, brand assets | one click |
+| `mcp/cloudflare` | Workers, KV, R2, D1 | one click |
+| `mcp/datadog` | metrics, monitors, logs, traces | one click |
+| `mcp/figma` | files, components, variables | one click |
+| `mcp/firecrawl` | scraping and crawling | nothing at all |
+| `mcp/github` | issues, pull requests, Actions | a client id, created once |
 | `mcp/higgsfield` | image, video and voice generation | one click |
-| `mcp/linear` | issues, projects and cycles | one click |
+| `mcp/hubspot` | contacts, companies, deals | a client id, created once |
+| `mcp/linear` | issues, projects, cycles | one click |
+| `mcp/neon` | Postgres, with branches | one click |
+| `mcp/netlify` | sites, deploys, environment | one click |
 | `mcp/notion` | pages and databases | one click |
-| `mcp/zernio` | social, ads, inbox, WhatsApp, SMS, calls | one click |
+| `mcp/sentry` | issues, stacktraces, releases | one click |
+| `mcp/slack` | channels, posting, search | a client id, created once |
+| `mcp/supabase` | Postgres, auth, storage | one click |
+| `mcp/vercel` | projects, deployments, logs | one click |
+| `mcp/zernio` | social, ads, inbox, WhatsApp, SMS | one click |
 
-Six servers and no skills. That is an MCP directory, not yet a marketplace —
+Eighteen servers and no skills. That is an MCP directory, not yet a marketplace —
 see `skills/README.md` for what is missing and why it matters.
 
 "One click" means the server registers Firetower itself, so nobody creates an

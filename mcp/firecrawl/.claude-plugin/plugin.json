@@ -1,0 +1,10 @@
+{
+  "name": "firecrawl",
+  "description": "Scrape a page, crawl a site, and get markdown an agent can actually read.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Firetower",
+    "url": "https://firetower.cloud"
+  },
+  "homepage": "https://www.firecrawl.dev"
+}
