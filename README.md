@@ -11,16 +11,23 @@ Nothing here is specific to Firetower. The layout is the one Claude Code and
 Codex already read, so a folder in this repository works in all three — which
 is the only way we find out it is broken before you do.
 
-## What is in a plugin
+## How it is laid out
 
 ```
-linear/
-  .claude-plugin/plugin.json   name, description, version, author
-  .codex-plugin/plugin.json    the same bytes, so Codex finds it too
-  .mcp.json                    the MCP server, if it has one
-  assets/logo.png              the mark shown on the row
-  skills/<name>/SKILL.md       instructions, where they earn their place
+mcp/                           entries whose point is a server to call
+  linear/
+    .claude-plugin/plugin.json   name, description, version, author
+    .codex-plugin/plugin.json    the same bytes, so Codex finds it too
+    .mcp.json                    the server, and the address it calls
+    assets/logo.png              the mark shown on the row
+    skills/<name>/SKILL.md       instructions, where they earn their place
+skills/                        entries whose point is instructions to read
 ```
+
+**The split is for people, not for parsers.** An entry is the same shape in
+either directory; `marketplace.json` names its path and nothing else cares.
+An entry carrying both goes where its point is — `mcp/github` ships a skill
+and still lives under `mcp/`, because somebody adding it wants the tools.
 
 The manifest is a label. Everything an agent actually reads is the body —
 `skills/`, `commands/`, `agents/` and `.mcp.json` — and that body is identical
@@ -30,14 +37,17 @@ skills and MCP servers from their own places.
 
 ## What is here
 
-| Plugin | Connects to | Authorizing |
+| Entry | Connects to | Authorizing |
 | --- | --- | --- |
-| `figma` | Figma files, components and variables | one click |
-| `github` | issues, pull requests, Actions, code search | reuses your git credential |
-| `higgsfield` | image, video and voice generation | one click |
-| `linear` | issues, projects and cycles | one click |
-| `notion` | pages and databases | one click |
-| `zernio` | social, ads, inbox, WhatsApp, SMS, calls | one click |
+| `mcp/figma` | Figma files, components and variables | one click |
+| `mcp/github` | issues, pull requests, Actions, code search | reuses your git credential |
+| `mcp/higgsfield` | image, video and voice generation | one click |
+| `mcp/linear` | issues, projects and cycles | one click |
+| `mcp/notion` | pages and databases | one click |
+| `mcp/zernio` | social, ads, inbox, WhatsApp, SMS, calls | one click |
+
+Six servers and one skill between them. That is an MCP directory, not yet a
+marketplace — see `skills/README.md` for what is missing and why it matters.
 
 "One click" means the server registers Firetower itself, so nobody creates an
 OAuth application and nobody pastes a client id. You press Connect, you
@@ -51,8 +61,9 @@ pull request is a judgement, not an API call.
 
 ## Adding a plugin
 
-Make the folder, add it to `.claude-plugin/marketplace.json`, open a pull
-request. Two things to get right:
+Make the folder under `mcp/` or `skills/`, add it to
+`.claude-plugin/marketplace.json` with that path, and open a pull request.
+Two things to get right:
 
 **The logo travels inside the plugin.** Put it at `assets/logo.png` — a
 square, 180px or better. It is stored with the bundle rather than fetched, so

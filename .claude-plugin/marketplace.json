@@ -12,7 +12,7 @@
         "name": "Firetower"
       },
       "category": "project-management",
-      "source": "./linear",
+      "source": "./mcp/linear",
       "homepage": "https://linear.app"
     },
     {
@@ -22,7 +22,7 @@
         "name": "Firetower"
       },
       "category": "version-control",
-      "source": "./github",
+      "source": "./mcp/github",
       "homepage": "https://github.com"
     },
     {
@@ -32,7 +32,7 @@
         "name": "Firetower"
       },
       "category": "knowledge",
-      "source": "./notion",
+      "source": "./mcp/notion",
       "homepage": "https://notion.com"
     },
     {
@@ -42,7 +42,7 @@
         "name": "Firetower"
       },
       "category": "design",
-      "source": "./figma",
+      "source": "./mcp/figma",
       "homepage": "https://figma.com"
     },
     {
@@ -52,7 +52,7 @@
         "name": "Firetower"
       },
       "category": "media",
-      "source": "./higgsfield",
+      "source": "./mcp/higgsfield",
       "homepage": "https://higgsfield.ai"
     },
     {
@@ -62,7 +62,7 @@
         "name": "Firetower"
       },
       "category": "marketing",
-      "source": "./zernio",
+      "source": "./mcp/zernio",
       "homepage": "https://zernio.com"
     }
   ]
