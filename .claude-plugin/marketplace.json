@@ -64,6 +64,26 @@
       "category": "marketing",
       "source": "./mcp/zernio",
       "homepage": "https://zernio.com"
+    },
+    {
+      "name": "security-review",
+      "description": "Find the vulnerability in a pending change, then prove the fix stops it.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "quality",
+      "source": "./skills/security-review",
+      "homepage": "https://firetower.cloud"
+    },
+    {
+      "name": "release-notes",
+      "description": "Write the commit the changelog will be built from, and the note that goes out with it.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "release",
+      "source": "./skills/release-notes",
+      "homepage": "https://firetower.cloud"
     }
   ]
 }
