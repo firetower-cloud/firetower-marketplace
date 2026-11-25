@@ -78,6 +78,7 @@ dynamic registration or does not.
 | `mcp/apify` | Ready-made scrapers, run and their results read back | one click |
 | `mcp/brightdata` | Web data collection that gets through — proxies, unblocking, feeds | one click |
 | `mcp/exa` | Search that returns page contents rather than a list of links | one click |
+| `mcp/firecrawl` | Scrape a page, crawl a site, and get markdown an agent can actually read | nothing at all |
 | `mcp/hyperbrowser` | Headless browsers that run a page and hand back what it rendered | one click |
 | `mcp/scrapingbee` | Fetch a rendered page without being blocked | one click |
 | `mcp/steel` | Browser sessions an agent drives, with the page state back | a client id, created once |
@@ -93,14 +94,16 @@ dynamic registration or does not.
 | `mcp/front` | Shared inboxes, conversations and the drafts waiting in them | a client id, created once |
 | `mcp/hubspot` | Contacts, companies and deals, as context for every answer | a client id, created once |
 | `mcp/intercom` | Conversations, contacts and help-centre articles | one click |
+| `mcp/notion` | Search Notion, read pages and databases, and write back to them | one click |
 | `mcp/tally` | Forms and the responses submitted to them | one click |
 
-### Social
+### Social and marketing
 
 | Entry | What it reaches | Authorizing |
 | --- | --- | --- |
 | `mcp/buffer` | Queue a post to every channel and read how the last ones did | one click |
 | `mcp/typefully` | Draft, schedule and measure posts across social accounts | one click |
+| `mcp/zernio` | Marketing for agents — social, ads, inbox, WhatsApp, SMS and calls behind one connection | one click |
 
 ### Money
 
@@ -123,6 +126,7 @@ dynamic registration or does not.
 | `mcp/cloudflare` | Workers, KV, R2, D1 and the bindings between them | one click |
 | `mcp/context7` | Current documentation for a library, at the version in use | one click |
 | `mcp/fly-io` | Apps, machines and volumes, across regions | one click |
+| `mcp/github` | GitHub issues, pull requests, Actions and code search, as tools the agent can call | a client id, created once |
 | `mcp/linear` | Linear issues, projects and cycles — read a ticket, move it, and write back what the agent actually did | one click |
 | `mcp/monday` | Boards, items and columns of the work tracked on them | one click |
 | `mcp/netlify` | Sites, deploys and environment variables, as tools the agent can call | one click |
@@ -167,15 +171,6 @@ dynamic registration or does not.
 | `mcp/fal` | Run image, video and audio models and get the file back | one click |
 | `mcp/hugging-face` | Models, datasets and spaces, searched and read | one click |
 | `mcp/replicate` | Run any published model and collect its output | one click |
-
-### Everything else
-
-| Entry | What it reaches | Authorizing |
-| --- | --- | --- |
-| `mcp/firecrawl` | Scrape a page, crawl a site, and get markdown an agent can actually read | nothing at all |
-| `mcp/github` | GitHub issues, pull requests, Actions and code search, as tools the agent can call | a client id, created once |
-| `mcp/notion` | Search Notion, read pages and databases, and write back to them | one click |
-| `mcp/zernio` | Marketing for agents — social, ads, inbox, WhatsApp, SMS and calls behind one connection | one click |
 
 ## Adding an entry
 
