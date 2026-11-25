@@ -26,8 +26,7 @@ skills/                        entries whose point is instructions to read
 
 **The split is for people, not for parsers.** An entry is the same shape in
 either directory; `marketplace.json` names its path and nothing else cares.
-An entry carrying both goes where its point is — `mcp/github` ships a skill
-and still lives under `mcp/`, because somebody adding it wants the tools.
+An entry carrying both would go where its point is; none does today.
 
 The manifest is a label. Everything an agent actually reads is the body —
 `skills/`, `commands/`, `agents/` and `.mcp.json` — and that body is identical
@@ -46,8 +45,8 @@ skills and MCP servers from their own places.
 | `mcp/notion` | pages and databases | one click |
 | `mcp/zernio` | social, ads, inbox, WhatsApp, SMS, calls | one click |
 
-Six servers and one skill between them. That is an MCP directory, not yet a
-marketplace — see `skills/README.md` for what is missing and why it matters.
+Six servers and no skills. That is an MCP directory, not yet a marketplace —
+see `skills/README.md` for what is missing and why it matters.
 
 "One click" means the server registers Firetower itself, so nobody creates an
 OAuth application and nobody pastes a client id. You press Connect, you

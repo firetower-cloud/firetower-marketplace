@@ -3,10 +3,12 @@
 Entries that are instructions rather than a connection. **There are none, and
 that is the honest state of this marketplace.**
 
-Two lived here briefly — a diff reviewer and a conventional-commits helper —
-and both were deleted rather than kept to make the directory look occupied.
-They said what a capable model already does unprompted, which is the one
-thing a skill must not be: it costs context at rest and pays nothing back.
+Three were written and all three deleted: a diff reviewer, a
+conventional-commits helper, and a pull-request writer that was hiding inside
+`mcp/github` rather than sitting here where it would have been noticed
+sooner. Each said what a capable model already does unprompted, which is the
+one thing a skill must not be — it costs context at rest and pays nothing
+back.
 
 ## What belongs here
 
