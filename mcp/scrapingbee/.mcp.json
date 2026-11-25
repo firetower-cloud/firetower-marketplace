@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "scrapingbee": {
+      "type": "http",
+      "url": "https://mcp.scrapingbee.com/mcp"
+    }
+  }
+}

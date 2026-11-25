@@ -1,0 +1,10 @@
+{
+  "name": "exa",
+  "description": "Search that returns page contents rather than a list of links.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Firetower",
+    "url": "https://firetower.cloud"
+  },
+  "homepage": "https://exa.ai"
+}

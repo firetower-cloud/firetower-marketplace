@@ -1,0 +1,10 @@
+{
+  "name": "posthog",
+  "description": "Events, funnels, feature flags and session replays.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Firetower",
+    "url": "https://firetower.cloud"
+  },
+  "homepage": "https://posthog.com"
+}

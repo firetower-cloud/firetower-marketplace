@@ -1,0 +1,10 @@
+{
+  "name": "loops",
+  "description": "Lifecycle email — contacts, campaigns and the events behind them.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Firetower",
+    "url": "https://firetower.cloud"
+  },
+  "homepage": "https://loops.so"
+}

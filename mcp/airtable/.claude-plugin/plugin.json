@@ -1,0 +1,10 @@
+{
+  "name": "airtable",
+  "description": "Bases, tables and records — the database most operations run on.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Firetower",
+    "url": "https://firetower.cloud"
+  },
+  "homepage": "https://airtable.com"
+}

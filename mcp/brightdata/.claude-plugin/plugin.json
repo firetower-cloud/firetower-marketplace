@@ -1,0 +1,10 @@
+{
+  "name": "brightdata",
+  "description": "Web data collection that gets through — proxies, unblocking, feeds.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Firetower",
+    "url": "https://firetower.cloud"
+  },
+  "homepage": "https://brightdata.com"
+}

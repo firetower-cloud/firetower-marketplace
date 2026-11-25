@@ -1,0 +1,10 @@
+{
+  "name": "steel",
+  "description": "Browser sessions an agent drives, with the page state back.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Firetower",
+    "url": "https://firetower.cloud"
+  },
+  "homepage": "https://steel.dev"
+}

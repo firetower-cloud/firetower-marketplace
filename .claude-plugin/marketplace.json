@@ -2,9 +2,39 @@
   "name": "firetower",
   "owner": {
     "name": "Firetower",
-    "url": "https://github.com/firetower-cloud/firetower-plugins"
+    "url": "https://github.com/firetower-cloud/firetower-marketplace"
   },
   "plugins": [
+    {
+      "name": "airtable",
+      "description": "Bases, tables and records — the database most operations run on.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "productivity",
+      "source": "./mcp/airtable",
+      "homepage": "https://airtable.com"
+    },
+    {
+      "name": "algolia",
+      "description": "Search indices, records and the analytics behind a query.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "search",
+      "source": "./mcp/algolia",
+      "homepage": "https://www.algolia.com"
+    },
+    {
+      "name": "apify",
+      "description": "Ready-made scrapers, run and their results read back.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "web-data",
+      "source": "./mcp/apify",
+      "homepage": "https://apify.com"
+    },
     {
       "name": "asana",
       "description": "Tasks, projects and portfolios — read the work and write back what was done.",
@@ -14,6 +44,56 @@
       "category": "project-management",
       "source": "./mcp/asana",
       "homepage": "https://asana.com"
+    },
+    {
+      "name": "attio",
+      "description": "People, companies and deals, read and written as records.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "crm",
+      "source": "./mcp/attio",
+      "homepage": "https://attio.com"
+    },
+    {
+      "name": "brightdata",
+      "description": "Web data collection that gets through — proxies, unblocking, feeds.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "web-data",
+      "source": "./mcp/brightdata",
+      "homepage": "https://brightdata.com"
+    },
+    {
+      "name": "buffer",
+      "description": "Queue a post to every channel and read how the last ones did.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "social",
+      "source": "./mcp/buffer",
+      "homepage": "https://buffer.com"
+    },
+    {
+      "name": "buildkite",
+      "description": "Pipelines, builds and the logs of a job that failed.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "ci",
+      "source": "./mcp/buildkite",
+      "homepage": "https://buildkite.com"
+    },
+    {
+      "name": "cal-com",
+      "description": "Bookings, availability and event types, read and scheduled.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "productivity",
+      "source": "./mcp/cal-com",
+      "homepage": "https://cal.com"
     },
     {
       "name": "canva",
@@ -26,6 +106,26 @@
       "homepage": "https://www.canva.com"
     },
     {
+      "name": "circleci",
+      "description": "Pipelines, workflows and the test output of a failing job.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "ci",
+      "source": "./mcp/circleci",
+      "homepage": "https://circleci.com"
+    },
+    {
+      "name": "clerk",
+      "description": "Users, organisations and sessions of an application's sign-in.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "auth",
+      "source": "./mcp/clerk",
+      "homepage": "https://clerk.com"
+    },
+    {
       "name": "cloudflare",
       "description": "Workers, KV, R2, D1 and the bindings between them.",
       "author": {
@@ -36,6 +136,26 @@
       "homepage": "https://www.cloudflare.com"
     },
     {
+      "name": "context7",
+      "description": "Current documentation for a library, at the version in use.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "developer-tools",
+      "source": "./mcp/context7",
+      "homepage": "https://context7.com"
+    },
+    {
+      "name": "customer-io",
+      "description": "Campaigns, segments and the messages a person was actually sent.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "email",
+      "source": "./mcp/customer-io",
+      "homepage": "https://customer.io"
+    },
+    {
       "name": "datadog",
       "description": "Metrics, monitors, logs and traces, as an agent can query them.",
       "author": {
@@ -44,6 +164,46 @@
       "category": "observability",
       "source": "./mcp/datadog",
       "homepage": "https://www.datadoghq.com"
+    },
+    {
+      "name": "discord",
+      "description": "Servers, channels and message history, searched and read.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "communication",
+      "source": "./mcp/discord",
+      "homepage": "https://discord.com"
+    },
+    {
+      "name": "elevenlabs",
+      "description": "Speech, voice cloning and dubbing, with the audio back.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "ai",
+      "source": "./mcp/elevenlabs",
+      "homepage": "https://elevenlabs.io"
+    },
+    {
+      "name": "exa",
+      "description": "Search that returns page contents rather than a list of links.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "web-data",
+      "source": "./mcp/exa",
+      "homepage": "https://exa.ai"
+    },
+    {
+      "name": "fal",
+      "description": "Run image, video and audio models and get the file back.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "ai",
+      "source": "./mcp/fal",
+      "homepage": "https://fal.ai"
     },
     {
       "name": "figma",
@@ -66,6 +226,26 @@
       "homepage": "https://www.firecrawl.dev"
     },
     {
+      "name": "fly-io",
+      "description": "Apps, machines and volumes, across regions.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "deployment",
+      "source": "./mcp/fly-io",
+      "homepage": "https://fly.io"
+    },
+    {
+      "name": "front",
+      "description": "Shared inboxes, conversations and the drafts waiting in them.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "crm",
+      "source": "./mcp/front",
+      "homepage": "https://front.com"
+    },
+    {
       "name": "github",
       "description": "GitHub issues, pull requests, Actions and code search, as tools the agent can call.",
       "author": {
@@ -74,6 +254,16 @@
       "category": "version-control",
       "source": "./mcp/github",
       "homepage": "https://github.com"
+    },
+    {
+      "name": "grafana",
+      "description": "Dashboards, the queries behind them, and the alerts that fired.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "observability",
+      "source": "./mcp/grafana",
+      "homepage": "https://grafana.com"
     },
     {
       "name": "higgsfield",
@@ -96,6 +286,36 @@
       "homepage": "https://www.hubspot.com"
     },
     {
+      "name": "hugging-face",
+      "description": "Models, datasets and spaces, searched and read.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "ai",
+      "source": "./mcp/hugging-face",
+      "homepage": "https://huggingface.co"
+    },
+    {
+      "name": "hyperbrowser",
+      "description": "Headless browsers that run a page and hand back what it rendered.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "web-data",
+      "source": "./mcp/hyperbrowser",
+      "homepage": "https://hyperbrowser.ai"
+    },
+    {
+      "name": "intercom",
+      "description": "Conversations, contacts and help-centre articles.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "crm",
+      "source": "./mcp/intercom",
+      "homepage": "https://www.intercom.com"
+    },
+    {
       "name": "linear",
       "description": "Linear issues, projects and cycles — read a ticket, move it, and write back what the agent actually did.",
       "author": {
@@ -104,6 +324,66 @@
       "category": "project-management",
       "source": "./mcp/linear",
       "homepage": "https://linear.app"
+    },
+    {
+      "name": "loops",
+      "description": "Lifecycle email — contacts, campaigns and the events behind them.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "email",
+      "source": "./mcp/loops",
+      "homepage": "https://loops.so"
+    },
+    {
+      "name": "make",
+      "description": "Scenarios and the modules inside them, run and inspected.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "automation",
+      "source": "./mcp/make",
+      "homepage": "https://www.make.com"
+    },
+    {
+      "name": "mercury",
+      "description": "Accounts, transactions and payments for a business's banking.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "finance",
+      "source": "./mcp/mercury",
+      "homepage": "https://mercury.com"
+    },
+    {
+      "name": "mintlify",
+      "description": "A documentation site's pages, searched and updated.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "cms",
+      "source": "./mcp/mintlify",
+      "homepage": "https://mintlify.com"
+    },
+    {
+      "name": "monday",
+      "description": "Boards, items and columns of the work tracked on them.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "project-management",
+      "source": "./mcp/monday",
+      "homepage": "https://monday.com"
+    },
+    {
+      "name": "mux",
+      "description": "Video assets, uploads and the playback metrics of each one.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "media",
+      "source": "./mcp/mux",
+      "homepage": "https://www.mux.com"
     },
     {
       "name": "neon",
@@ -136,6 +416,126 @@
       "homepage": "https://notion.com"
     },
     {
+      "name": "paypal",
+      "description": "Invoices, orders, payments and refunds.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "payments",
+      "source": "./mcp/paypal",
+      "homepage": "https://www.paypal.com"
+    },
+    {
+      "name": "pipedream",
+      "description": "Workflows and the apps they connect, called as tools.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "automation",
+      "source": "./mcp/pipedream",
+      "homepage": "https://pipedream.com"
+    },
+    {
+      "name": "polar",
+      "description": "Products, subscriptions and checkouts for software being sold.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "payments",
+      "source": "./mcp/polar",
+      "homepage": "https://polar.sh"
+    },
+    {
+      "name": "posthog",
+      "description": "Events, funnels, feature flags and session replays.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "analytics",
+      "source": "./mcp/posthog",
+      "homepage": "https://posthog.com"
+    },
+    {
+      "name": "prisma",
+      "description": "Postgres databases, their schema and the migrations applied.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "database",
+      "source": "./mcp/prisma",
+      "homepage": "https://www.prisma.io"
+    },
+    {
+      "name": "railway",
+      "description": "Projects, services, deployments and the logs of the last one.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "deployment",
+      "source": "./mcp/railway",
+      "homepage": "https://railway.com"
+    },
+    {
+      "name": "ramp",
+      "description": "Cards, spend, bills and the receipts attached to them.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "finance",
+      "source": "./mcp/ramp",
+      "homepage": "https://ramp.com"
+    },
+    {
+      "name": "render",
+      "description": "Services, deploys and the logs of the one that failed.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "deployment",
+      "source": "./mcp/render",
+      "homepage": "https://render.com"
+    },
+    {
+      "name": "replicate",
+      "description": "Run any published model and collect its output.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "ai",
+      "source": "./mcp/replicate",
+      "homepage": "https://replicate.com"
+    },
+    {
+      "name": "resend",
+      "description": "Send transactional email and read back what happened to it.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "email",
+      "source": "./mcp/resend",
+      "homepage": "https://resend.com"
+    },
+    {
+      "name": "sanity",
+      "description": "Documents, datasets and the schema of a content lake.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "cms",
+      "source": "./mcp/sanity",
+      "homepage": "https://www.sanity.io"
+    },
+    {
+      "name": "scrapingbee",
+      "description": "Fetch a rendered page without being blocked.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "web-data",
+      "source": "./mcp/scrapingbee",
+      "homepage": "https://www.scrapingbee.com"
+    },
+    {
       "name": "sentry",
       "description": "Find the issue, read the stacktrace, and the release that introduced it.",
       "author": {
@@ -144,6 +544,16 @@
       "category": "observability",
       "source": "./mcp/sentry",
       "homepage": "https://sentry.io"
+    },
+    {
+      "name": "shortcut",
+      "description": "Stories, epics and iterations of a team's work.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "project-management",
+      "source": "./mcp/shortcut",
+      "homepage": "https://www.shortcut.com"
     },
     {
       "name": "slack",
@@ -156,6 +566,36 @@
       "homepage": "https://slack.com"
     },
     {
+      "name": "square",
+      "description": "Payments, catalogue, orders and customers of a storefront.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "payments",
+      "source": "./mcp/square",
+      "homepage": "https://squareup.com"
+    },
+    {
+      "name": "steel",
+      "description": "Browser sessions an agent drives, with the page state back.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "web-data",
+      "source": "./mcp/steel",
+      "homepage": "https://steel.dev"
+    },
+    {
+      "name": "stripe",
+      "description": "Customers, subscriptions, invoices and payments.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "payments",
+      "source": "./mcp/stripe",
+      "homepage": "https://stripe.com"
+    },
+    {
       "name": "supabase",
       "description": "Postgres, auth and storage — query a branch, read a schema, check a policy.",
       "author": {
@@ -166,6 +606,66 @@
       "homepage": "https://supabase.com"
     },
     {
+      "name": "tally",
+      "description": "Forms and the responses submitted to them.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "productivity",
+      "source": "./mcp/tally",
+      "homepage": "https://tally.so"
+    },
+    {
+      "name": "tavily",
+      "description": "Search and extraction shaped for an agent to act on.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "web-data",
+      "source": "./mcp/tavily",
+      "homepage": "https://www.tavily.com"
+    },
+    {
+      "name": "twilio",
+      "description": "SMS, voice calls and WhatsApp messages, sent and looked up.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "communication",
+      "source": "./mcp/twilio",
+      "homepage": "https://www.twilio.com"
+    },
+    {
+      "name": "typefully",
+      "description": "Draft, schedule and measure posts across social accounts.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "social",
+      "source": "./mcp/typefully",
+      "homepage": "https://typefully.com"
+    },
+    {
+      "name": "upstash",
+      "description": "Serverless Redis, Kafka and vector indexes.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "database",
+      "source": "./mcp/upstash",
+      "homepage": "https://upstash.com"
+    },
+    {
+      "name": "vapi",
+      "description": "Voice agents that place and take calls, and the transcripts after.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "communication",
+      "source": "./mcp/vapi",
+      "homepage": "https://vapi.ai"
+    },
+    {
       "name": "vercel",
       "description": "Projects, deployments and logs — read what shipped and why a build failed.",
       "author": {
@@ -174,6 +674,36 @@
       "category": "deployment",
       "source": "./mcp/vercel",
       "homepage": "https://vercel.com"
+    },
+    {
+      "name": "webflow",
+      "description": "Sites, collections and CMS items, published from a conversation.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "cms",
+      "source": "./mcp/webflow",
+      "homepage": "https://webflow.com"
+    },
+    {
+      "name": "workos",
+      "description": "SSO, directory sync and the organisations behind enterprise sign-in.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "auth",
+      "source": "./mcp/workos",
+      "homepage": "https://workos.com"
+    },
+    {
+      "name": "zapier",
+      "description": "Thousands of apps as tools, through the automation hub itself.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "automation",
+      "source": "./mcp/zapier",
+      "homepage": "https://zapier.com"
     },
     {
       "name": "zernio",

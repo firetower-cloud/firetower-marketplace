@@ -1,0 +1,10 @@
+{
+  "name": "algolia",
+  "description": "Search indices, records and the analytics behind a query.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Firetower",
+    "url": "https://firetower.cloud"
+  },
+  "homepage": "https://www.algolia.com"
+}

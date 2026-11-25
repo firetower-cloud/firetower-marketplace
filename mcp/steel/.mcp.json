@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "steel": {
+      "type": "http",
+      "url": "https://mcp.steel.dev/mcp"
+    }
+  }
+}

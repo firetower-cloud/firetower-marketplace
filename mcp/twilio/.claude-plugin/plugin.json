@@ -1,0 +1,10 @@
+{
+  "name": "twilio",
+  "description": "SMS, voice calls and WhatsApp messages, sent and looked up.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Firetower",
+    "url": "https://firetower.cloud"
+  },
+  "homepage": "https://www.twilio.com"
+}

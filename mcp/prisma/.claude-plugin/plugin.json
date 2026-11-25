@@ -1,0 +1,10 @@
+{
+  "name": "prisma",
+  "description": "Postgres databases, their schema and the migrations applied.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Firetower",
+    "url": "https://firetower.cloud"
+  },
+  "homepage": "https://www.prisma.io"
+}

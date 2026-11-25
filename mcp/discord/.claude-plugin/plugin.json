@@ -1,0 +1,10 @@
+{
+  "name": "discord",
+  "description": "Servers, channels and message history, searched and read.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Firetower",
+    "url": "https://firetower.cloud"
+  },
+  "homepage": "https://discord.com"
+}

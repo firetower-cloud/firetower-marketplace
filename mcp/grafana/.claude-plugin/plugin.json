@@ -1,0 +1,10 @@
+{
+  "name": "grafana",
+  "description": "Dashboards, the queries behind them, and the alerts that fired.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Firetower",
+    "url": "https://firetower.cloud"
+  },
+  "homepage": "https://grafana.com"
+}

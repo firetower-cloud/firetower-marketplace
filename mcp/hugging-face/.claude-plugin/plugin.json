@@ -1,0 +1,10 @@
+{
+  "name": "hugging-face",
+  "description": "Models, datasets and spaces, searched and read.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Firetower",
+    "url": "https://firetower.cloud"
+  },
+  "homepage": "https://huggingface.co"
+}
