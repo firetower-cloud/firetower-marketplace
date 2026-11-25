@@ -40,7 +40,7 @@ skills and MCP servers from their own places.
 | Entry | Connects to | Authorizing |
 | --- | --- | --- |
 | `mcp/figma` | Figma files, components and variables | one click |
-| `mcp/github` | issues, pull requests, Actions, code search | reuses your git credential |
+| `mcp/github` | issues, pull requests, Actions, code search | a client id, created once |
 | `mcp/higgsfield` | image, video and voice generation | one click |
 | `mcp/linear` | issues, projects and cycles | one click |
 | `mcp/notion` | pages and databases | one click |
@@ -51,7 +51,9 @@ marketplace — see `skills/README.md` for what is missing and why it matters.
 
 "One click" means the server registers Firetower itself, so nobody creates an
 OAuth application and nobody pastes a client id. You press Connect, you
-authorize in your browser, and the agent has the tools.
+authorize in your browser, and the agent has the tools. `github` is the
+exception: GitHub publishes its metadata but registers no clients, so it
+wants one made by hand.
 
 **Skills are the exception, not the rule.** A connector already gives the
 agent tools with names and descriptions. A skill on top is only worth the
@@ -73,24 +75,13 @@ a row draws without reaching anybody's server and never shows a broken image.
 what the agent actually did" tells somebody whether they want it. "Linear
 integration" does not.
 
-### Reusing a credential Firetower already holds
+### Authorizing
 
-A server that takes a token Firetower already has needs no authorization flow
-of its own. `github` is the case: its MCP server accepts the token we hold for
-git, so the plugin says so in `.mcp.json`.
+Every entry authorizes for itself, per person. A manifest does not get to
+say which credential it would like — reusing a token somebody granted for
+something else is the one thing a repository nobody here wrote must not be
+able to ask for.
 
-```json
-{
-  "mcpServers": {
-    "github": {
-      "type": "http",
-      "url": "https://api.githubcopilot.com/mcp/",
-      "firetower": { "auth": "borrow-git", "borrow": "github" }
-    }
-  }
-}
-```
-
-The `firetower` key is ours and every other client ignores it, which is the
-point: the same folder still works in Claude Code, where that server does its
-own OAuth.
+Most servers register a client automatically, so Connect is one press.
+`github`, `slack` and Google's do not, and need a client id created once and
+pasted in; that is their choice, not a property of this repository.
