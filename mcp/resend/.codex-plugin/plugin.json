@@ -1,5 +1,6 @@
 {
   "name": "resend",
+  "displayName": "Resend",
   "description": "Send transactional email and read back what happened to it.",
   "version": "1.0.0",
   "author": {

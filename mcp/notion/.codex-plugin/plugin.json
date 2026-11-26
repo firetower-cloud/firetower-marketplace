@@ -1,5 +1,6 @@
 {
   "name": "notion",
+  "displayName": "Notion",
   "description": "Search Notion, read pages and databases, and write back to them.",
   "version": "1.0.0",
   "author": {

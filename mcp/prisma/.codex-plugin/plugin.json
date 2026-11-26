@@ -1,5 +1,6 @@
 {
   "name": "prisma",
+  "displayName": "Prisma",
   "description": "Postgres databases, their schema and the migrations applied.",
   "version": "1.0.0",
   "author": {

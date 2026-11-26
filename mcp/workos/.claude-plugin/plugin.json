@@ -1,5 +1,6 @@
 {
   "name": "workos",
+  "displayName": "WorkOS",
   "description": "SSO, directory sync and the organisations behind enterprise sign-in.",
   "version": "1.0.0",
   "author": {

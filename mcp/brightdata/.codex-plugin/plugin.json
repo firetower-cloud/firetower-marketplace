@@ -1,5 +1,6 @@
 {
   "name": "brightdata",
+  "displayName": "Bright Data",
   "description": "Web data collection that gets through — proxies, unblocking, feeds.",
   "version": "1.0.0",
   "author": {

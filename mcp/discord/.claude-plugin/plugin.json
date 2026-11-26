@@ -1,5 +1,6 @@
 {
   "name": "discord",
+  "displayName": "Discord",
   "description": "Servers, channels and message history, searched and read.",
   "version": "1.0.0",
   "author": {

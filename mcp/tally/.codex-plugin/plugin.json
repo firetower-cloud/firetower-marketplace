@@ -1,5 +1,6 @@
 {
   "name": "tally",
+  "displayName": "Tally",
   "description": "Forms and the responses submitted to them.",
   "version": "1.0.0",
   "author": {

@@ -1,5 +1,6 @@
 {
   "name": "elevenlabs",
+  "displayName": "ElevenLabs",
   "description": "Speech, voice cloning and dubbing, with the audio back.",
   "version": "1.0.0",
   "author": {

@@ -1,5 +1,6 @@
 {
   "name": "replicate",
+  "displayName": "Replicate",
   "description": "Run any published model and collect its output.",
   "version": "1.0.0",
   "author": {

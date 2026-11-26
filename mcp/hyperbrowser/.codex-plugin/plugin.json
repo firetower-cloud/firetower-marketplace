@@ -1,5 +1,6 @@
 {
   "name": "hyperbrowser",
+  "displayName": "Hyperbrowser",
   "description": "Headless browsers that run a page and hand back what it rendered.",
   "version": "1.0.0",
   "author": {

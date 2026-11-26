@@ -1,5 +1,6 @@
 {
   "name": "firecrawl",
+  "displayName": "Firecrawl",
   "description": "Scrape a page, crawl a site, and get markdown an agent can actually read.",
   "version": "1.0.0",
   "author": {

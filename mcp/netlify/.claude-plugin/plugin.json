@@ -1,5 +1,6 @@
 {
   "name": "netlify",
+  "displayName": "Netlify",
   "description": "Sites, deploys and environment variables, as tools the agent can call.",
   "version": "1.0.0",
   "author": {

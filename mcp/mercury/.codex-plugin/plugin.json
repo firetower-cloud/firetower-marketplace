@@ -1,5 +1,6 @@
 {
   "name": "mercury",
+  "displayName": "Mercury",
   "description": "Accounts, transactions and payments for a business's banking.",
   "version": "1.0.0",
   "author": {

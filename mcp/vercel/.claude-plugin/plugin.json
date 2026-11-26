@@ -1,5 +1,6 @@
 {
   "name": "vercel",
+  "displayName": "Vercel",
   "description": "Projects, deployments and logs — read what shipped and why a build failed.",
   "version": "1.0.0",
   "author": {

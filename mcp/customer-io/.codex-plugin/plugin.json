@@ -1,5 +1,6 @@
 {
   "name": "customer-io",
+  "displayName": "Customer.io",
   "description": "Campaigns, segments and the messages a person was actually sent.",
   "version": "1.0.0",
   "author": {

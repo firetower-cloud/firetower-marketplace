@@ -1,5 +1,6 @@
 {
   "name": "upstash",
+  "displayName": "Upstash",
   "description": "Serverless Redis, Kafka and vector indexes.",
   "version": "1.0.0",
   "author": {

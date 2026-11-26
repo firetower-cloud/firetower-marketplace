@@ -1,5 +1,6 @@
 {
   "name": "sanity",
+  "displayName": "Sanity",
   "description": "Documents, datasets and the schema of a content lake.",
   "version": "1.0.0",
   "author": {

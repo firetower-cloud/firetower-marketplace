@@ -1,5 +1,6 @@
 {
   "name": "asana",
+  "displayName": "Asana",
   "description": "Tasks, projects and portfolios — read the work and write back what was done.",
   "version": "1.0.0",
   "author": {

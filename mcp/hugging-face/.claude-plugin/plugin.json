@@ -1,5 +1,6 @@
 {
   "name": "hugging-face",
+  "displayName": "Hugging Face",
   "description": "Models, datasets and spaces, searched and read.",
   "version": "1.0.0",
   "author": {

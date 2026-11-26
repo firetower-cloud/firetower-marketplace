@@ -1,5 +1,6 @@
 {
   "name": "steel",
+  "displayName": "Steel",
   "description": "Browser sessions an agent drives, with the page state back.",
   "version": "1.0.0",
   "author": {

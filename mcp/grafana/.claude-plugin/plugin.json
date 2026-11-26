@@ -1,5 +1,6 @@
 {
   "name": "grafana",
+  "displayName": "Grafana",
   "description": "Dashboards, the queries behind them, and the alerts that fired.",
   "version": "1.0.0",
   "author": {

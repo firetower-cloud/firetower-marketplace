@@ -1,5 +1,6 @@
 {
   "name": "fly-io",
+  "displayName": "Fly.io",
   "description": "Apps, machines and volumes, across regions.",
   "version": "1.0.0",
   "author": {

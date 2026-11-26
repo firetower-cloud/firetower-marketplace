@@ -1,5 +1,6 @@
 {
   "name": "algolia",
+  "displayName": "Algolia",
   "description": "Search indices, records and the analytics behind a query.",
   "version": "1.0.0",
   "author": {

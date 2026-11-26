@@ -1,5 +1,6 @@
 {
   "name": "tavily",
+  "displayName": "Tavily",
   "description": "Search and extraction shaped for an agent to act on.",
   "version": "1.0.0",
   "author": {

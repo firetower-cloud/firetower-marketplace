@@ -1,5 +1,6 @@
 {
   "name": "vapi",
+  "displayName": "Vapi",
   "description": "Voice agents that place and take calls, and the transcripts after.",
   "version": "1.0.0",
   "author": {

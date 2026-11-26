@@ -1,5 +1,6 @@
 {
   "name": "canva",
+  "displayName": "Canva",
   "description": "Designs, folders and brand assets, read and created from a conversation.",
   "version": "1.0.0",
   "author": {

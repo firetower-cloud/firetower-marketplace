@@ -1,5 +1,6 @@
 {
   "name": "fal",
+  "displayName": "fal",
   "description": "Run image, video and audio models and get the file back.",
   "version": "1.0.0",
   "author": {

@@ -1,5 +1,6 @@
 {
   "name": "circleci",
+  "displayName": "CircleCI",
   "description": "Pipelines, workflows and the test output of a failing job.",
   "version": "1.0.0",
   "author": {

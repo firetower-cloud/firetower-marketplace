@@ -1,5 +1,6 @@
 {
   "name": "hubspot",
+  "displayName": "HubSpot",
   "description": "Contacts, companies and deals, as context for every answer.",
   "version": "1.0.0",
   "author": {

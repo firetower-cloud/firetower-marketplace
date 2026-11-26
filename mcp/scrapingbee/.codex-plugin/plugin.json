@@ -1,5 +1,6 @@
 {
   "name": "scrapingbee",
+  "displayName": "ScrapingBee",
   "description": "Fetch a rendered page without being blocked.",
   "version": "1.0.0",
   "author": {

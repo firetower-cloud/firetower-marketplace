@@ -1,5 +1,6 @@
 {
   "name": "cal-com",
+  "displayName": "Cal.com",
   "description": "Bookings, availability and event types, read and scheduled.",
   "version": "1.0.0",
   "author": {

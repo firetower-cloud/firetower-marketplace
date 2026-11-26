@@ -1,5 +1,6 @@
 {
   "name": "buildkite",
+  "displayName": "Buildkite",
   "description": "Pipelines, builds and the logs of a job that failed.",
   "version": "1.0.0",
   "author": {

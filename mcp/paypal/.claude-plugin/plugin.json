@@ -1,5 +1,6 @@
 {
   "name": "paypal",
+  "displayName": "PayPal",
   "description": "Invoices, orders, payments and refunds.",
   "version": "1.0.0",
   "author": {

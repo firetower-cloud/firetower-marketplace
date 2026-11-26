@@ -1,5 +1,6 @@
 {
   "name": "apify",
+  "displayName": "Apify",
   "description": "Ready-made scrapers, run and their results read back.",
   "version": "1.0.0",
   "author": {

@@ -7,6 +7,7 @@
   "plugins": [
     {
       "name": "airtable",
+      "displayName": "Airtable",
       "description": "Bases, tables and records — the database most operations run on.",
       "author": {
         "name": "Firetower"
@@ -17,6 +18,7 @@
     },
     {
       "name": "algolia",
+      "displayName": "Algolia",
       "description": "Search indices, records and the analytics behind a query.",
       "author": {
         "name": "Firetower"
@@ -27,6 +29,7 @@
     },
     {
       "name": "apify",
+      "displayName": "Apify",
       "description": "Ready-made scrapers, run and their results read back.",
       "author": {
         "name": "Firetower"
@@ -37,6 +40,7 @@
     },
     {
       "name": "asana",
+      "displayName": "Asana",
       "description": "Tasks, projects and portfolios — read the work and write back what was done.",
       "author": {
         "name": "Firetower"
@@ -47,6 +51,7 @@
     },
     {
       "name": "attio",
+      "displayName": "Attio",
       "description": "People, companies and deals, read and written as records.",
       "author": {
         "name": "Firetower"
@@ -57,6 +62,7 @@
     },
     {
       "name": "brightdata",
+      "displayName": "Bright Data",
       "description": "Web data collection that gets through — proxies, unblocking, feeds.",
       "author": {
         "name": "Firetower"
@@ -67,6 +73,7 @@
     },
     {
       "name": "buffer",
+      "displayName": "Buffer",
       "description": "Queue a post to every channel and read how the last ones did.",
       "author": {
         "name": "Firetower"
@@ -77,6 +84,7 @@
     },
     {
       "name": "buildkite",
+      "displayName": "Buildkite",
       "description": "Pipelines, builds and the logs of a job that failed.",
       "author": {
         "name": "Firetower"
@@ -87,6 +95,7 @@
     },
     {
       "name": "cal-com",
+      "displayName": "Cal.com",
       "description": "Bookings, availability and event types, read and scheduled.",
       "author": {
         "name": "Firetower"
@@ -97,6 +106,7 @@
     },
     {
       "name": "canva",
+      "displayName": "Canva",
       "description": "Designs, folders and brand assets, read and created from a conversation.",
       "author": {
         "name": "Firetower"
@@ -107,6 +117,7 @@
     },
     {
       "name": "circleci",
+      "displayName": "CircleCI",
       "description": "Pipelines, workflows and the test output of a failing job.",
       "author": {
         "name": "Firetower"
@@ -117,6 +128,7 @@
     },
     {
       "name": "clerk",
+      "displayName": "Clerk",
       "description": "Users, organisations and sessions of an application's sign-in.",
       "author": {
         "name": "Firetower"
@@ -127,6 +139,7 @@
     },
     {
       "name": "cloudflare",
+      "displayName": "Cloudflare",
       "description": "Workers, KV, R2, D1 and the bindings between them.",
       "author": {
         "name": "Firetower"
@@ -137,6 +150,7 @@
     },
     {
       "name": "context7",
+      "displayName": "Context7",
       "description": "Current documentation for a library, at the version in use.",
       "author": {
         "name": "Firetower"
@@ -147,6 +161,7 @@
     },
     {
       "name": "customer-io",
+      "displayName": "Customer.io",
       "description": "Campaigns, segments and the messages a person was actually sent.",
       "author": {
         "name": "Firetower"
@@ -157,6 +172,7 @@
     },
     {
       "name": "datadog",
+      "displayName": "Datadog",
       "description": "Metrics, monitors, logs and traces, as an agent can query them.",
       "author": {
         "name": "Firetower"
@@ -167,6 +183,7 @@
     },
     {
       "name": "discord",
+      "displayName": "Discord",
       "description": "Servers, channels and message history, searched and read.",
       "author": {
         "name": "Firetower"
@@ -177,6 +194,7 @@
     },
     {
       "name": "elevenlabs",
+      "displayName": "ElevenLabs",
       "description": "Speech, voice cloning and dubbing, with the audio back.",
       "author": {
         "name": "Firetower"
@@ -187,6 +205,7 @@
     },
     {
       "name": "exa",
+      "displayName": "Exa",
       "description": "Search that returns page contents rather than a list of links.",
       "author": {
         "name": "Firetower"
@@ -197,6 +216,7 @@
     },
     {
       "name": "fal",
+      "displayName": "fal",
       "description": "Run image, video and audio models and get the file back.",
       "author": {
         "name": "Firetower"
@@ -207,6 +227,7 @@
     },
     {
       "name": "figma",
+      "displayName": "Figma",
       "description": "Read a Figma file as the agent builds the UI — frames, components, variables and styles.",
       "author": {
         "name": "Firetower"
@@ -217,6 +238,7 @@
     },
     {
       "name": "firecrawl",
+      "displayName": "Firecrawl",
       "description": "Scrape a page, crawl a site, and get markdown an agent can actually read.",
       "author": {
         "name": "Firetower"
@@ -227,6 +249,7 @@
     },
     {
       "name": "fly-io",
+      "displayName": "Fly.io",
       "description": "Apps, machines and volumes, across regions.",
       "author": {
         "name": "Firetower"
@@ -237,6 +260,7 @@
     },
     {
       "name": "front",
+      "displayName": "Front",
       "description": "Shared inboxes, conversations and the drafts waiting in them.",
       "author": {
         "name": "Firetower"
@@ -247,6 +271,7 @@
     },
     {
       "name": "github",
+      "displayName": "GitHub",
       "description": "GitHub issues, pull requests, Actions and code search, as tools the agent can call.",
       "author": {
         "name": "Firetower"
@@ -257,6 +282,7 @@
     },
     {
       "name": "grafana",
+      "displayName": "Grafana",
       "description": "Dashboards, the queries behind them, and the alerts that fired.",
       "author": {
         "name": "Firetower"
@@ -267,6 +293,7 @@
     },
     {
       "name": "higgsfield",
+      "displayName": "Higgsfield",
       "description": "Generate and edit images, video and voice with Higgsfield's creative suite.",
       "author": {
         "name": "Firetower"
@@ -277,6 +304,7 @@
     },
     {
       "name": "hubspot",
+      "displayName": "HubSpot",
       "description": "Contacts, companies and deals, as context for every answer.",
       "author": {
         "name": "Firetower"
@@ -287,6 +315,7 @@
     },
     {
       "name": "hugging-face",
+      "displayName": "Hugging Face",
       "description": "Models, datasets and spaces, searched and read.",
       "author": {
         "name": "Firetower"
@@ -297,6 +326,7 @@
     },
     {
       "name": "hyperbrowser",
+      "displayName": "Hyperbrowser",
       "description": "Headless browsers that run a page and hand back what it rendered.",
       "author": {
         "name": "Firetower"
@@ -307,6 +337,7 @@
     },
     {
       "name": "intercom",
+      "displayName": "Intercom",
       "description": "Conversations, contacts and help-centre articles.",
       "author": {
         "name": "Firetower"
@@ -317,6 +348,7 @@
     },
     {
       "name": "linear",
+      "displayName": "Linear",
       "description": "Linear issues, projects and cycles — read a ticket, move it, and write back what the agent actually did.",
       "author": {
         "name": "Firetower"
@@ -327,6 +359,7 @@
     },
     {
       "name": "loops",
+      "displayName": "Loops",
       "description": "Lifecycle email — contacts, campaigns and the events behind them.",
       "author": {
         "name": "Firetower"
@@ -337,6 +370,7 @@
     },
     {
       "name": "make",
+      "displayName": "Make",
       "description": "Scenarios and the modules inside them, run and inspected.",
       "author": {
         "name": "Firetower"
@@ -347,6 +381,7 @@
     },
     {
       "name": "mercury",
+      "displayName": "Mercury",
       "description": "Accounts, transactions and payments for a business's banking.",
       "author": {
         "name": "Firetower"
@@ -357,6 +392,7 @@
     },
     {
       "name": "mintlify",
+      "displayName": "Mintlify",
       "description": "A documentation site's pages, searched and updated.",
       "author": {
         "name": "Firetower"
@@ -367,6 +403,7 @@
     },
     {
       "name": "monday",
+      "displayName": "monday.com",
       "description": "Boards, items and columns of the work tracked on them.",
       "author": {
         "name": "Firetower"
@@ -377,6 +414,7 @@
     },
     {
       "name": "mux",
+      "displayName": "Mux",
       "description": "Video assets, uploads and the playback metrics of each one.",
       "author": {
         "name": "Firetower"
@@ -387,6 +425,7 @@
     },
     {
       "name": "neon",
+      "displayName": "Neon",
       "description": "Postgres with branches: open one for a change, query it, throw it away.",
       "author": {
         "name": "Firetower"
@@ -397,6 +436,7 @@
     },
     {
       "name": "netlify",
+      "displayName": "Netlify",
       "description": "Sites, deploys and environment variables, as tools the agent can call.",
       "author": {
         "name": "Firetower"
@@ -407,6 +447,7 @@
     },
     {
       "name": "notion",
+      "displayName": "Notion",
       "description": "Search Notion, read pages and databases, and write back to them.",
       "author": {
         "name": "Firetower"
@@ -417,6 +458,7 @@
     },
     {
       "name": "paypal",
+      "displayName": "PayPal",
       "description": "Invoices, orders, payments and refunds.",
       "author": {
         "name": "Firetower"
@@ -427,6 +469,7 @@
     },
     {
       "name": "pipedream",
+      "displayName": "Pipedream",
       "description": "Workflows and the apps they connect, called as tools.",
       "author": {
         "name": "Firetower"
@@ -437,6 +480,7 @@
     },
     {
       "name": "polar",
+      "displayName": "Polar",
       "description": "Products, subscriptions and checkouts for software being sold.",
       "author": {
         "name": "Firetower"
@@ -447,6 +491,7 @@
     },
     {
       "name": "posthog",
+      "displayName": "PostHog",
       "description": "Events, funnels, feature flags and session replays.",
       "author": {
         "name": "Firetower"
@@ -457,6 +502,7 @@
     },
     {
       "name": "prisma",
+      "displayName": "Prisma",
       "description": "Postgres databases, their schema and the migrations applied.",
       "author": {
         "name": "Firetower"
@@ -467,6 +513,7 @@
     },
     {
       "name": "railway",
+      "displayName": "Railway",
       "description": "Projects, services, deployments and the logs of the last one.",
       "author": {
         "name": "Firetower"
@@ -477,6 +524,7 @@
     },
     {
       "name": "ramp",
+      "displayName": "Ramp",
       "description": "Cards, spend, bills and the receipts attached to them.",
       "author": {
         "name": "Firetower"
@@ -487,6 +535,7 @@
     },
     {
       "name": "render",
+      "displayName": "Render",
       "description": "Services, deploys and the logs of the one that failed.",
       "author": {
         "name": "Firetower"
@@ -497,6 +546,7 @@
     },
     {
       "name": "replicate",
+      "displayName": "Replicate",
       "description": "Run any published model and collect its output.",
       "author": {
         "name": "Firetower"
@@ -507,6 +557,7 @@
     },
     {
       "name": "resend",
+      "displayName": "Resend",
       "description": "Send transactional email and read back what happened to it.",
       "author": {
         "name": "Firetower"
@@ -517,6 +568,7 @@
     },
     {
       "name": "sanity",
+      "displayName": "Sanity",
       "description": "Documents, datasets and the schema of a content lake.",
       "author": {
         "name": "Firetower"
@@ -527,6 +579,7 @@
     },
     {
       "name": "scrapingbee",
+      "displayName": "ScrapingBee",
       "description": "Fetch a rendered page without being blocked.",
       "author": {
         "name": "Firetower"
@@ -537,6 +590,7 @@
     },
     {
       "name": "sentry",
+      "displayName": "Sentry",
       "description": "Find the issue, read the stacktrace, and the release that introduced it.",
       "author": {
         "name": "Firetower"
@@ -547,6 +601,7 @@
     },
     {
       "name": "shortcut",
+      "displayName": "Shortcut",
       "description": "Stories, epics and iterations of a team's work.",
       "author": {
         "name": "Firetower"
@@ -557,6 +612,7 @@
     },
     {
       "name": "slack",
+      "displayName": "Slack",
       "description": "Read a channel, post, and search your workspace history.",
       "author": {
         "name": "Firetower"
@@ -567,6 +623,7 @@
     },
     {
       "name": "square",
+      "displayName": "Square",
       "description": "Payments, catalogue, orders and customers of a storefront.",
       "author": {
         "name": "Firetower"
@@ -577,6 +634,7 @@
     },
     {
       "name": "steel",
+      "displayName": "Steel",
       "description": "Browser sessions an agent drives, with the page state back.",
       "author": {
         "name": "Firetower"
@@ -587,6 +645,7 @@
     },
     {
       "name": "stripe",
+      "displayName": "Stripe",
       "description": "Customers, subscriptions, invoices and payments.",
       "author": {
         "name": "Firetower"
@@ -597,6 +656,7 @@
     },
     {
       "name": "supabase",
+      "displayName": "Supabase",
       "description": "Postgres, auth and storage — query a branch, read a schema, check a policy.",
       "author": {
         "name": "Firetower"
@@ -607,6 +667,7 @@
     },
     {
       "name": "tally",
+      "displayName": "Tally",
       "description": "Forms and the responses submitted to them.",
       "author": {
         "name": "Firetower"
@@ -617,6 +678,7 @@
     },
     {
       "name": "tavily",
+      "displayName": "Tavily",
       "description": "Search and extraction shaped for an agent to act on.",
       "author": {
         "name": "Firetower"
@@ -627,6 +689,7 @@
     },
     {
       "name": "twilio",
+      "displayName": "Twilio",
       "description": "SMS, voice calls and WhatsApp messages, sent and looked up.",
       "author": {
         "name": "Firetower"
@@ -637,6 +700,7 @@
     },
     {
       "name": "typefully",
+      "displayName": "Typefully",
       "description": "Draft, schedule and measure posts across social accounts.",
       "author": {
         "name": "Firetower"
@@ -647,6 +711,7 @@
     },
     {
       "name": "upstash",
+      "displayName": "Upstash",
       "description": "Serverless Redis, Kafka and vector indexes.",
       "author": {
         "name": "Firetower"
@@ -657,6 +722,7 @@
     },
     {
       "name": "vapi",
+      "displayName": "Vapi",
       "description": "Voice agents that place and take calls, and the transcripts after.",
       "author": {
         "name": "Firetower"
@@ -667,6 +733,7 @@
     },
     {
       "name": "vercel",
+      "displayName": "Vercel",
       "description": "Projects, deployments and logs — read what shipped and why a build failed.",
       "author": {
         "name": "Firetower"
@@ -677,6 +744,7 @@
     },
     {
       "name": "webflow",
+      "displayName": "Webflow",
       "description": "Sites, collections and CMS items, published from a conversation.",
       "author": {
         "name": "Firetower"
@@ -687,6 +755,7 @@
     },
     {
       "name": "workos",
+      "displayName": "WorkOS",
       "description": "SSO, directory sync and the organisations behind enterprise sign-in.",
       "author": {
         "name": "Firetower"
@@ -697,6 +766,7 @@
     },
     {
       "name": "zapier",
+      "displayName": "Zapier",
       "description": "Thousands of apps as tools, through the automation hub itself.",
       "author": {
         "name": "Firetower"
@@ -707,6 +777,7 @@
     },
     {
       "name": "zernio",
+      "displayName": "Zernio",
       "description": "Marketing for agents — social, ads, inbox, WhatsApp, SMS and calls behind one connection.",
       "author": {
         "name": "Firetower"

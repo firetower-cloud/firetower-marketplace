@@ -1,5 +1,6 @@
 {
   "name": "github",
+  "displayName": "GitHub",
   "description": "GitHub issues, pull requests, Actions and code search, as tools the agent can call.",
   "version": "1.0.0",
   "author": {

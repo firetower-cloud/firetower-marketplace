@@ -1,5 +1,6 @@
 {
   "name": "shortcut",
+  "displayName": "Shortcut",
   "description": "Stories, epics and iterations of a team's work.",
   "version": "1.0.0",
   "author": {

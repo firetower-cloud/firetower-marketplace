@@ -1,5 +1,6 @@
 {
   "name": "monday",
+  "displayName": "monday.com",
   "description": "Boards, items and columns of the work tracked on them.",
   "version": "1.0.0",
   "author": {

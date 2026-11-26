@@ -1,5 +1,6 @@
 {
   "name": "stripe",
+  "displayName": "Stripe",
   "description": "Customers, subscriptions, invoices and payments.",
   "version": "1.0.0",
   "author": {

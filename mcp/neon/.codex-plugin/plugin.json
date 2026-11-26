@@ -1,5 +1,6 @@
 {
   "name": "neon",
+  "displayName": "Neon",
   "description": "Postgres with branches: open one for a change, query it, throw it away.",
   "version": "1.0.0",
   "author": {

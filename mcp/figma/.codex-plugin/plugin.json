@@ -1,5 +1,6 @@
 {
   "name": "figma",
+  "displayName": "Figma",
   "description": "Read a Figma file as the agent builds the UI — frames, components, variables and styles.",
   "version": "1.0.0",
   "author": {

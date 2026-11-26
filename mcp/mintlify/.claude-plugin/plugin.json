@@ -1,5 +1,6 @@
 {
   "name": "mintlify",
+  "displayName": "Mintlify",
   "description": "A documentation site's pages, searched and updated.",
   "version": "1.0.0",
   "author": {

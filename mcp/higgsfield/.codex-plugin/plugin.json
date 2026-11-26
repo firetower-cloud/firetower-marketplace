@@ -1,5 +1,6 @@
 {
   "name": "higgsfield",
+  "displayName": "Higgsfield",
   "description": "Generate and edit images, video and voice with Higgsfield's creative suite.",
   "version": "1.0.0",
   "author": {

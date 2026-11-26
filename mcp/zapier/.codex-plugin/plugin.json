@@ -1,5 +1,6 @@
 {
   "name": "zapier",
+  "displayName": "Zapier",
   "description": "Thousands of apps as tools, through the automation hub itself.",
   "version": "1.0.0",
   "author": {

@@ -1,5 +1,6 @@
 {
   "name": "cloudflare",
+  "displayName": "Cloudflare",
   "description": "Workers, KV, R2, D1 and the bindings between them.",
   "version": "1.0.0",
   "author": {

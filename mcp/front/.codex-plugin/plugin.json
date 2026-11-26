@@ -1,5 +1,6 @@
 {
   "name": "front",
+  "displayName": "Front",
   "description": "Shared inboxes, conversations and the drafts waiting in them.",
   "version": "1.0.0",
   "author": {

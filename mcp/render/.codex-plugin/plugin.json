@@ -1,5 +1,6 @@
 {
   "name": "render",
+  "displayName": "Render",
   "description": "Services, deploys and the logs of the one that failed.",
   "version": "1.0.0",
   "author": {

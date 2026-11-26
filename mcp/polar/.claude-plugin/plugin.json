@@ -1,5 +1,6 @@
 {
   "name": "polar",
+  "displayName": "Polar",
   "description": "Products, subscriptions and checkouts for software being sold.",
   "version": "1.0.0",
   "author": {

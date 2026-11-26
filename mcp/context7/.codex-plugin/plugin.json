@@ -1,5 +1,6 @@
 {
   "name": "context7",
+  "displayName": "Context7",
   "description": "Current documentation for a library, at the version in use.",
   "version": "1.0.0",
   "author": {

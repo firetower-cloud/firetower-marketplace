@@ -1,5 +1,6 @@
 {
   "name": "buffer",
+  "displayName": "Buffer",
   "description": "Queue a post to every channel and read how the last ones did.",
   "version": "1.0.0",
   "author": {

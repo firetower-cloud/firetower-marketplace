@@ -1,5 +1,6 @@
 {
   "name": "datadog",
+  "displayName": "Datadog",
   "description": "Metrics, monitors, logs and traces, as an agent can query them.",
   "version": "1.0.0",
   "author": {

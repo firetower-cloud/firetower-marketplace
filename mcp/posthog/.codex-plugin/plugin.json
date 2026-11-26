@@ -1,5 +1,6 @@
 {
   "name": "posthog",
+  "displayName": "PostHog",
   "description": "Events, funnels, feature flags and session replays.",
   "version": "1.0.0",
   "author": {

@@ -1,5 +1,6 @@
 {
   "name": "pipedream",
+  "displayName": "Pipedream",
   "description": "Workflows and the apps they connect, called as tools.",
   "version": "1.0.0",
   "author": {

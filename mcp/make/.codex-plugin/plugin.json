@@ -1,5 +1,6 @@
 {
   "name": "make",
+  "displayName": "Make",
   "description": "Scenarios and the modules inside them, run and inspected.",
   "version": "1.0.0",
   "author": {

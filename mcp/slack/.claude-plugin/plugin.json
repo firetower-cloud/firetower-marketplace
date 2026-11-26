@@ -1,5 +1,6 @@
 {
   "name": "slack",
+  "displayName": "Slack",
   "description": "Read a channel, post, and search your workspace history.",
   "version": "1.0.0",
   "author": {

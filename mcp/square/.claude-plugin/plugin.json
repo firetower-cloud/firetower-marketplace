@@ -1,5 +1,6 @@
 {
   "name": "square",
+  "displayName": "Square",
   "description": "Payments, catalogue, orders and customers of a storefront.",
   "version": "1.0.0",
   "author": {

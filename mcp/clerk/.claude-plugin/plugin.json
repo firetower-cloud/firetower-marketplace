@@ -1,5 +1,6 @@
 {
   "name": "clerk",
+  "displayName": "Clerk",
   "description": "Users, organisations and sessions of an application's sign-in.",
   "version": "1.0.0",
   "author": {

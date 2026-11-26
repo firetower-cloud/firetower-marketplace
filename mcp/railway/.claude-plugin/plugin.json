@@ -1,5 +1,6 @@
 {
   "name": "railway",
+  "displayName": "Railway",
   "description": "Projects, services, deployments and the logs of the last one.",
   "version": "1.0.0",
   "author": {

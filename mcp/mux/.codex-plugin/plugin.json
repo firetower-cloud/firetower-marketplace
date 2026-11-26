@@ -1,5 +1,6 @@
 {
   "name": "mux",
+  "displayName": "Mux",
   "description": "Video assets, uploads and the playback metrics of each one.",
   "version": "1.0.0",
   "author": {

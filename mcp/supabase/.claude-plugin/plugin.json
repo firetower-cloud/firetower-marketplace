@@ -1,5 +1,6 @@
 {
   "name": "supabase",
+  "displayName": "Supabase",
   "description": "Postgres, auth and storage — query a branch, read a schema, check a policy.",
   "version": "1.0.0",
   "author": {

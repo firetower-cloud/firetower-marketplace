@@ -1,5 +1,6 @@
 {
   "name": "ramp",
+  "displayName": "Ramp",
   "description": "Cards, spend, bills and the receipts attached to them.",
   "version": "1.0.0",
   "author": {

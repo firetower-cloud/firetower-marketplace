@@ -1,5 +1,6 @@
 {
   "name": "webflow",
+  "displayName": "Webflow",
   "description": "Sites, collections and CMS items, published from a conversation.",
   "version": "1.0.0",
   "author": {

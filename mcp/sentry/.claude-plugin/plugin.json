@@ -1,5 +1,6 @@
 {
   "name": "sentry",
+  "displayName": "Sentry",
   "description": "Find the issue, read the stacktrace, and the release that introduced it.",
   "version": "1.0.0",
   "author": {
