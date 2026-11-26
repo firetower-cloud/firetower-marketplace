@@ -3,8 +3,16 @@
     "slack": {
       "type": "http",
       "url": "https://mcp.slack.com/mcp",
-      "console": "https://api.slack.com/apps",
-      "guide": "https://api.slack.com/quickstart"
+      "setup": [
+        {
+          "label": "Create a Slack app",
+          "url": "https://api.slack.com/apps"
+        },
+        {
+          "label": "Slack's quickstart",
+          "url": "https://api.slack.com/quickstart"
+        }
+      ]
     }
   }
 }

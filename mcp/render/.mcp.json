@@ -3,7 +3,12 @@
     "render": {
       "type": "http",
       "url": "https://mcp.render.com/mcp",
-      "console": "https://dashboard.render.com/settings/oauth"
+      "setup": [
+        {
+          "label": "Render OAuth settings",
+          "url": "https://dashboard.render.com/settings/oauth"
+        }
+      ]
     }
   }
 }

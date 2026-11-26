@@ -3,7 +3,12 @@
     "steel": {
       "type": "http",
       "url": "https://mcp.steel.dev/mcp",
-      "console": "https://app.steel.dev/settings"
+      "setup": [
+        {
+          "label": "Steel settings",
+          "url": "https://app.steel.dev/settings"
+        }
+      ]
     }
   }
 }

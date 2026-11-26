@@ -3,8 +3,16 @@
     "front": {
       "type": "http",
       "url": "https://mcp.frontapp.com/mcp",
-      "console": "https://app.frontapp.com/settings/developers",
-      "guide": "https://dev.frontapp.com/docs/oauth"
+      "setup": [
+        {
+          "label": "Front developer settings",
+          "url": "https://app.frontapp.com/settings/developers"
+        },
+        {
+          "label": "Front's OAuth docs",
+          "url": "https://dev.frontapp.com/docs/oauth"
+        }
+      ]
     }
   }
 }

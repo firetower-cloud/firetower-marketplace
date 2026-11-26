@@ -3,8 +3,16 @@
     "hubspot": {
       "type": "http",
       "url": "https://mcp.hubspot.com/anthropic",
-      "console": "https://app.hubspot.com/developer",
-      "guide": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/oauth"
+      "setup": [
+        {
+          "label": "HubSpot developer account",
+          "url": "https://app.hubspot.com/developer"
+        },
+        {
+          "label": "HubSpot's OAuth docs",
+          "url": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/oauth"
+        }
+      ]
     }
   }
 }

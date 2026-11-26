@@ -6,8 +6,16 @@
       "scopes": [
         "https://www.googleapis.com/auth/drive"
       ],
-      "console": "https://console.cloud.google.com/auth/clients",
-      "guide": "https://developers.google.com/workspace/guides/configure-mcp-servers"
+      "setup": [
+        {
+          "label": "Google Cloud console",
+          "url": "https://console.cloud.google.com/auth/clients"
+        },
+        {
+          "label": "Google's MCP setup guide",
+          "url": "https://developers.google.com/workspace/guides/configure-mcp-servers"
+        }
+      ]
     }
   }
 }

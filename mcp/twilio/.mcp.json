@@ -3,7 +3,12 @@
     "twilio": {
       "type": "http",
       "url": "https://mcp.twilio.com/mcp",
-      "console": "https://console.twilio.com/us1/account/keys-credentials/oauth-apps"
+      "setup": [
+        {
+          "label": "Twilio OAuth apps",
+          "url": "https://console.twilio.com/us1/account/keys-credentials/oauth-apps"
+        }
+      ]
     }
   }
 }

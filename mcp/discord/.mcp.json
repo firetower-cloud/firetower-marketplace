@@ -3,8 +3,16 @@
     "discord": {
       "type": "http",
       "url": "https://mcp.discord.com/mcp",
-      "console": "https://discord.com/developers/applications",
-      "guide": "https://discord.com/developers/docs/topics/oauth2"
+      "setup": [
+        {
+          "label": "Discord developer portal",
+          "url": "https://discord.com/developers/applications"
+        },
+        {
+          "label": "Discord's OAuth2 docs",
+          "url": "https://discord.com/developers/docs/topics/oauth2"
+        }
+      ]
     }
   }
 }

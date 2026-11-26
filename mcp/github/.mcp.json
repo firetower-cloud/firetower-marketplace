@@ -3,8 +3,16 @@
     "github": {
       "type": "http",
       "url": "https://api.githubcopilot.com/mcp/",
-      "console": "https://github.com/settings/applications/new",
-      "guide": "https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/creating-an-oauth-app"
+      "setup": [
+        {
+          "label": "Register a GitHub OAuth app",
+          "url": "https://github.com/settings/applications/new"
+        },
+        {
+          "label": "GitHub's walkthrough",
+          "url": "https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/creating-an-oauth-app"
+        }
+      ]
     }
   }
 }

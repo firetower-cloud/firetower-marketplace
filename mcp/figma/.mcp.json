@@ -3,8 +3,16 @@
     "figma": {
       "type": "http",
       "url": "https://mcp.figma.com/mcp",
-      "console": "https://www.figma.com/developers/apps",
-      "guide": "https://www.figma.com/developers/api#oauth2"
+      "setup": [
+        {
+          "label": "Create a Figma app",
+          "url": "https://www.figma.com/developers/apps"
+        },
+        {
+          "label": "Figma's OAuth docs",
+          "url": "https://www.figma.com/developers/api#oauth2"
+        }
+      ]
     }
   }
 }

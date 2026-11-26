@@ -3,8 +3,16 @@
     "asana": {
       "type": "http",
       "url": "https://mcp.asana.com/mcp",
-      "console": "https://app.asana.com/0/my-apps",
-      "guide": "https://developers.asana.com/docs/oauth"
+      "setup": [
+        {
+          "label": "Asana developer console",
+          "url": "https://app.asana.com/0/my-apps"
+        },
+        {
+          "label": "Asana's OAuth docs",
+          "url": "https://developers.asana.com/docs/oauth"
+        }
+      ]
     }
   }
 }

@@ -3,7 +3,12 @@
     "elevenlabs": {
       "type": "http",
       "url": "https://api.elevenlabs.io/v1/mcp",
-      "console": "https://elevenlabs.io/app/developers"
+      "setup": [
+        {
+          "label": "ElevenLabs developer settings",
+          "url": "https://elevenlabs.io/app/developers"
+        }
+      ]
     }
   }
 }

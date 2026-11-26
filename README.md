@@ -63,14 +63,24 @@ no link rather than a guess, which is the whole reason these live here:
 | key | what it is |
 | --- | --- |
 | `scopes` | what to ask for, narrowed (see below) |
-| `console` | where somebody creates the OAuth application |
-| `guide` | the vendor's own instructions for doing it |
+| `setup` | where somebody goes to come back with a client id |
 
-The last two appear on the form Firetower shows when a server will not hand
-out a client of its own. They used to be a hardcoded match on thirteen
-hostnames inside the control plane, which meant a catalogue nobody here wrote
-could not say where its own console was without a pull request against
-Firetower. Both are plain links and need no ceiling: a link grants nothing.
+```json
+"setup": [
+  { "label": "Google Cloud console", "url": "https://console.cloud.google.com/auth/clients" },
+  { "label": "Google's MCP setup guide", "url": "https://developers.google.com/workspace/guides/configure-mcp-servers" }
+]
+```
+
+`setup` appears on the form Firetower shows when a server will not hand out a
+client of its own. **The labels are yours, and so is the number of them.**
+Google splits the job across a Cloud console and a twelve-step guide; Twilio
+has one page; somebody else might have three. An earlier version of this had
+two fields called `console` and `guide`, which was Google's shape read as a
+schema — every other vendor got Google's vocabulary and a null, and the screen
+said "Console" at people whose vendor calls it a developer portal.
+
+Links need no ceiling the way scopes do: a link grants nothing.
 
 #### Scopes
 
