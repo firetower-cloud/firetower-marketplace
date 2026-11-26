@@ -36,20 +36,34 @@ skills and MCP servers from their own places.
 
 ## What is here
 
-Seventy-one servers and no skills. That is an MCP directory, not yet a
+Seventy-nine servers and no skills. That is an MCP directory, not yet a
 marketplace — see `skills/README.md` for what is missing and why it matters.
 
 **"One click" means the server registers Firetower itself**, so nobody creates
 an OAuth application and nobody pastes a client id: you press Connect, you
 authorize in your browser, and the agent has the tools. Fifty-nine of these do
-that. Eleven publish their metadata but register no clients, so they want an
-application made by hand once — that is their choice, not a property of this
-repository, and Firetower has a form for it. One needs nothing at all.
+that. Nineteen want an application made by hand once — that is their choice,
+not a property of this repository, and Firetower has a form for it, with a
+link to the vendor's console and to their own instructions. One needs nothing
+at all.
 
 Every row below was measured against the live endpoint, not read off a
-documentation page: the address answers, it points at its protected-resource
-metadata, and that metadata names an authorization server which either offers
-dynamic registration or does not.
+documentation page. **Including the registration itself**, which is the part
+that is easy to get wrong: reading `registration_endpoint` out of a server's
+metadata says it *offers* to hand out clients, not that it will. Figma offers
+and answers `403`. `tools/probe-registration.py` in the Firetower repository
+posts a real registration to every entry here.
+
+### Scopes
+
+An entry may carry a `scopes` list in its `.mcp.json`, and it can only ask for
+**less** than the server advertises — anything not on the server's own list is
+dropped. That exists for the lists that are too big to request honestly:
+Gmail advertises twenty scopes including the whole account and delete, where
+reading, composing and sending is the job. Google also refuses an entire
+authorization over one scope that is not on the consent screen somebody
+configured, so narrowing is what makes it work at all rather than merely
+polite.
 
 ### Automation and glue
 
@@ -65,6 +79,8 @@ dynamic registration or does not.
 | --- | --- | --- |
 | `mcp/customer-io` | Campaigns, segments and the messages a person was actually sent | one click |
 | `mcp/discord` | Servers, channels and message history, searched and read | a client id, created once |
+| `mcp/gmail` | Read a mailbox, search it, draft and send — not delete, and not settings | a client id, created once |
+| `mcp/google-chat` | Spaces, memberships and messages, read and posted to | a client id, created once |
 | `mcp/loops` | Lifecycle email — contacts, campaigns and the events behind them | a client id, created once |
 | `mcp/resend` | Send transactional email and read back what happened to it | one click |
 | `mcp/slack` | Read a channel, post, and search your workspace history | a client id, created once |
@@ -92,6 +108,9 @@ dynamic registration or does not.
 | `mcp/attio` | People, companies and deals, read and written as records | one click |
 | `mcp/cal-com` | Bookings, availability and event types, read and scheduled | one click |
 | `mcp/front` | Shared inboxes, conversations and the drafts waiting in them | a client id, created once |
+| `mcp/google-calendar` | Events, availability and invitations, read and scheduled | a client id, created once |
+| `mcp/google-docs` | Documents read, drafted and edited in place | a client id, created once |
+| `mcp/google-sheets` | Spreadsheets, ranges and formulas, read and written back | a client id, created once |
 | `mcp/hubspot` | Contacts, companies and deals, as context for every answer | a client id, created once |
 | `mcp/intercom` | Conversations, contacts and help-centre articles | one click |
 | `mcp/notion` | Search Notion, read pages and databases, and write back to them | one click |
@@ -127,6 +146,7 @@ dynamic registration or does not.
 | `mcp/context7` | Current documentation for a library, at the version in use | one click |
 | `mcp/fly-io` | Apps, machines and volumes, across regions | one click |
 | `mcp/github` | GitHub issues, pull requests, Actions and code search, as tools the agent can call | a client id, created once |
+| `mcp/google-tasks` | Task lists and the things on them, read and ticked off | a client id, created once |
 | `mcp/linear` | Linear issues, projects and cycles — read a ticket, move it, and write back what the agent actually did | one click |
 | `mcp/monday` | Boards, items and columns of the work tracked on them | one click |
 | `mcp/netlify` | Sites, deploys and environment variables, as tools the agent can call | one click |
@@ -157,11 +177,18 @@ dynamic registration or does not.
 | --- | --- | --- |
 | `mcp/canva` | Designs, folders and brand assets, read and created from a conversation | one click |
 | `mcp/figma` | Read a Figma file as the agent builds the UI — frames, components, variables and styles | one click |
+| `mcp/google-slides` | Presentations and the slides inside them, read and built | a client id, created once |
 | `mcp/higgsfield` | Generate and edit images, video and voice with Higgsfield's creative suite | one click |
 | `mcp/mintlify` | A documentation site's pages, searched and updated | one click |
 | `mcp/mux` | Video assets, uploads and the playback metrics of each one | one click |
 | `mcp/sanity` | Documents, datasets and the schema of a content lake | one click |
 | `mcp/webflow` | Sites, collections and CMS items, published from a conversation | one click |
+
+### Google Workspace
+
+| Entry | What it reaches | Authorizing |
+| --- | --- | --- |
+| `mcp/google-drive` | Files, folders and shared drives — find them, read them, create and move them | a client id, created once |
 
 ### Models
 

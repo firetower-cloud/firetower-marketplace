@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "google-slides": {
+      "type": "http",
+      "url": "https://slidesmcp.googleapis.com/mcp/v1",
+      "scopes": [
+        "https://www.googleapis.com/auth/presentations",
+        "https://www.googleapis.com/auth/drive.readonly"
+      ]
+    }
+  }
+}

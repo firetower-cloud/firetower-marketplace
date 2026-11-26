@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "google-docs": {
+      "type": "http",
+      "url": "https://docsmcp.googleapis.com/mcp/v1",
+      "scopes": [
+        "https://www.googleapis.com/auth/documents",
+        "https://www.googleapis.com/auth/drive.readonly"
+      ]
+    }
+  }
+}

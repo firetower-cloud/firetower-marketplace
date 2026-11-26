@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "google-tasks": {
+      "type": "http",
+      "url": "https://tasksmcp.googleapis.com/mcp/v1",
+      "scopes": [
+        "https://www.googleapis.com/auth/tasks"
+      ]
+    }
+  }
+}

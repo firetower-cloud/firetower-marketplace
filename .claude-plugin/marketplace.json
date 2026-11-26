@@ -281,6 +281,94 @@
       "homepage": "https://github.com"
     },
     {
+      "name": "gmail",
+      "displayName": "Gmail",
+      "description": "Read a mailbox, search it, draft and send — not delete, and not settings.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "email",
+      "source": "./mcp/gmail",
+      "homepage": "https://workspace.google.com/products/gmail/"
+    },
+    {
+      "name": "google-calendar",
+      "displayName": "Google Calendar",
+      "description": "Events, availability and invitations, read and scheduled.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "productivity",
+      "source": "./mcp/google-calendar",
+      "homepage": "https://workspace.google.com/products/calendar/"
+    },
+    {
+      "name": "google-chat",
+      "displayName": "Google Chat",
+      "description": "Spaces, memberships and messages, read and posted to.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "communication",
+      "source": "./mcp/google-chat",
+      "homepage": "https://workspace.google.com/products/chat/"
+    },
+    {
+      "name": "google-docs",
+      "displayName": "Google Docs",
+      "description": "Documents read, drafted and edited in place.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "knowledge",
+      "source": "./mcp/google-docs",
+      "homepage": "https://workspace.google.com/products/docs/"
+    },
+    {
+      "name": "google-drive",
+      "displayName": "Google Drive",
+      "description": "Files, folders and shared drives — find them, read them, create and move them.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "storage",
+      "source": "./mcp/google-drive",
+      "homepage": "https://workspace.google.com/products/drive/"
+    },
+    {
+      "name": "google-sheets",
+      "displayName": "Google Sheets",
+      "description": "Spreadsheets, ranges and formulas, read and written back.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "productivity",
+      "source": "./mcp/google-sheets",
+      "homepage": "https://workspace.google.com/products/sheets/"
+    },
+    {
+      "name": "google-slides",
+      "displayName": "Google Slides",
+      "description": "Presentations and the slides inside them, read and built.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "design",
+      "source": "./mcp/google-slides",
+      "homepage": "https://workspace.google.com/products/slides/"
+    },
+    {
+      "name": "google-tasks",
+      "displayName": "Google Tasks",
+      "description": "Task lists and the things on them, read and ticked off.",
+      "author": {
+        "name": "Firetower"
+      },
+      "category": "project-management",
+      "source": "./mcp/google-tasks",
+      "homepage": "https://workspace.google.com/products/tasks/"
+    },
+    {
       "name": "grafana",
       "displayName": "Grafana",
       "description": "Dashboards, the queries behind them, and the alerts that fired.",

@@ -1,0 +1,11 @@
+{
+  "name": "google-sheets",
+  "displayName": "Google Sheets",
+  "description": "Spreadsheets, ranges and formulas, read and written back.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Firetower",
+    "url": "https://firetower.cloud"
+  },
+  "homepage": "https://workspace.google.com/products/sheets/"
+}
