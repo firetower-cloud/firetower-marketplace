@@ -2,7 +2,8 @@
   "mcpServers": {
     "twilio": {
       "type": "http",
-      "url": "https://mcp.twilio.com/mcp"
+      "url": "https://mcp.twilio.com/mcp",
+      "console": "https://console.twilio.com/us1/account/keys-credentials/oauth-apps"
     }
   }
 }

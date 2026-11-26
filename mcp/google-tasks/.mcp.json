@@ -5,7 +5,9 @@
       "url": "https://tasksmcp.googleapis.com/mcp/v1",
       "scopes": [
         "https://www.googleapis.com/auth/tasks"
-      ]
+      ],
+      "console": "https://console.cloud.google.com/auth/clients",
+      "guide": "https://developers.google.com/workspace/guides/configure-mcp-servers"
     }
   }
 }

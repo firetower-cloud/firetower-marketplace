@@ -2,7 +2,9 @@
   "mcpServers": {
     "discord": {
       "type": "http",
-      "url": "https://mcp.discord.com/mcp"
+      "url": "https://mcp.discord.com/mcp",
+      "console": "https://discord.com/developers/applications",
+      "guide": "https://discord.com/developers/docs/topics/oauth2"
     }
   }
 }

@@ -6,7 +6,9 @@
       "scopes": [
         "https://www.googleapis.com/auth/chat.spaces",
         "https://www.googleapis.com/auth/chat.messages"
-      ]
+      ],
+      "console": "https://console.cloud.google.com/auth/clients",
+      "guide": "https://developers.google.com/workspace/guides/configure-mcp-servers"
     }
   }
 }

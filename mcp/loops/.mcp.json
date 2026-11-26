@@ -2,7 +2,8 @@
   "mcpServers": {
     "loops": {
       "type": "http",
-      "url": "https://mcp.loops.so/mcp"
+      "url": "https://mcp.loops.so/mcp",
+      "console": "https://app.loops.so/settings?page=api"
     }
   }
 }

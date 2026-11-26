@@ -2,7 +2,9 @@
   "mcpServers": {
     "slack": {
       "type": "http",
-      "url": "https://mcp.slack.com/mcp"
+      "url": "https://mcp.slack.com/mcp",
+      "console": "https://api.slack.com/apps",
+      "guide": "https://api.slack.com/quickstart"
     }
   }
 }

@@ -8,7 +8,9 @@
         "https://www.googleapis.com/auth/gmail.compose",
         "https://www.googleapis.com/auth/gmail.send",
         "https://www.googleapis.com/auth/gmail.labels"
-      ]
+      ],
+      "console": "https://console.cloud.google.com/auth/clients",
+      "guide": "https://developers.google.com/workspace/guides/configure-mcp-servers"
     }
   }
 }

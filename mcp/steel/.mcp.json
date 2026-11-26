@@ -2,7 +2,8 @@
   "mcpServers": {
     "steel": {
       "type": "http",
-      "url": "https://mcp.steel.dev/mcp"
+      "url": "https://mcp.steel.dev/mcp",
+      "console": "https://app.steel.dev/settings"
     }
   }
 }

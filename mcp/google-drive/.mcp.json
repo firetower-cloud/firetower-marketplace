@@ -5,7 +5,9 @@
       "url": "https://drivemcp.googleapis.com/mcp/v1",
       "scopes": [
         "https://www.googleapis.com/auth/drive"
-      ]
+      ],
+      "console": "https://console.cloud.google.com/auth/clients",
+      "guide": "https://developers.google.com/workspace/guides/configure-mcp-servers"
     }
   }
 }

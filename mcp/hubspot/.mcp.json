@@ -2,7 +2,9 @@
   "mcpServers": {
     "hubspot": {
       "type": "http",
-      "url": "https://mcp.hubspot.com/anthropic"
+      "url": "https://mcp.hubspot.com/anthropic",
+      "console": "https://app.hubspot.com/developer",
+      "guide": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/oauth"
     }
   }
 }

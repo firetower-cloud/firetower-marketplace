@@ -54,7 +54,25 @@ metadata says it *offers* to hand out clients, not that it will. Figma offers
 and answers `403`. `tools/probe-registration.py` in the Firetower repository
 posts a real registration to every entry here.
 
-### Scopes
+### What an entry says about authorizing
+
+Beside `url`, a server in `.mcp.json` may carry three things. **None of them
+has a fallback compiled into Firetower** — a server nobody told us about shows
+no link rather than a guess, which is the whole reason these live here:
+
+| key | what it is |
+| --- | --- |
+| `scopes` | what to ask for, narrowed (see below) |
+| `console` | where somebody creates the OAuth application |
+| `guide` | the vendor's own instructions for doing it |
+
+The last two appear on the form Firetower shows when a server will not hand
+out a client of its own. They used to be a hardcoded match on thirteen
+hostnames inside the control plane, which meant a catalogue nobody here wrote
+could not say where its own console was without a pull request against
+Firetower. Both are plain links and need no ceiling: a link grants nothing.
+
+#### Scopes
 
 An entry may carry a `scopes` list in its `.mcp.json`, and it can only ask for
 **less** than the server advertises — anything not on the server's own list is
