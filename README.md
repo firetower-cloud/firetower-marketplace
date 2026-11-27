@@ -229,6 +229,11 @@ polite.
 
 ## Adding an entry
 
+**`CONTRIBUTING.md` is the one to read** — it says what a pull request has to
+show, which is mostly evidence that somebody ran the thing. The rest of this
+section is the shape of the folder.
+
+
 Make the folder under `mcp/` or `skills/`, add it to
 `.claude-plugin/marketplace.json` with that path, and open a pull request.
 Three things to get right:
