@@ -36,7 +36,7 @@ mcp/<name>/
 ```
 
 `skills/<name>/` for an entry whose point is instructions rather than a server.
-Then add it to `.claude-plugin/marketplace.json` with that path.
+Then add it to `.agents/plugins/marketplace.json` with that path.
 
 Four things get this wrong often enough to list:
 

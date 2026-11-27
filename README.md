@@ -14,6 +14,7 @@ which is the only way we find out it is broken before you do.
 ## How it is laid out
 
 ```
+.agents/plugins/marketplace.json   the catalogue: what is on offer, and where
 mcp/                           entries whose point is a server to call
   linear/
     .claude-plugin/plugin.json   name, description, version, author
@@ -235,7 +236,7 @@ section is the shape of the folder.
 
 
 Make the folder under `mcp/` or `skills/`, add it to
-`.claude-plugin/marketplace.json` with that path, and open a pull request.
+`.agents/plugins/marketplace.json` with that path, and open a pull request.
 Three things to get right:
 
 **Both manifests, byte for byte.** `.claude-plugin/plugin.json` and
