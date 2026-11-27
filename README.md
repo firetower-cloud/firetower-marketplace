@@ -230,7 +230,9 @@ polite.
 
 ## Adding an entry
 
-**`CONTRIBUTING.md` is the one to read** — it says what a pull request has to
+**[docs/adding-a-server.md](docs/adding-a-server.md) is how to work out
+whether a server can be added**, and **`CONTRIBUTING.md` is what the pull
+request has to show** — it says what a pull request has to
 show, which is mostly evidence that somebody ran the thing. The rest of this
 section is the shape of the folder.
 

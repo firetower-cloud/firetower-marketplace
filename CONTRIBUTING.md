@@ -1,5 +1,10 @@
 # Adding something to this marketplace
 
+**Working out whether a server can be added at all is
+[docs/adding-a-server.md](docs/adding-a-server.md)** — the probe, the folder,
+and the four things that have caught us. This file is what the pull request
+has to show once you have one.
+
 Open a pull request. The folder is the easy part; the review is about whether
 anybody should install it.
 
